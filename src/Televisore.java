@@ -38,4 +38,9 @@ public class Televisore extends Prodotto {
 
         return prezzoScontato;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + ", Dimensioni: " + dimensioni + " pollici, Smart: " + (smart ? "Sì" : "No");
+    }
 }

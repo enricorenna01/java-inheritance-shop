@@ -39,4 +39,8 @@ public class Smartphone extends Prodotto {
         return prezzoScontato;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + ", IMEI: " + imei + ", Memoria: " + memoria + " GB";
+    }
 }
