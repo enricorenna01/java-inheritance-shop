@@ -75,4 +75,9 @@ public class Prodotto {
 
         return prezzoScontato;
     }
+
+    @Override
+    public String toString() {
+        return "Codice: " + codice + ", Nome: " + nome + ", Marca: " + marca + ", Prezzo: " + prezzo + "€, IVA: " + iva + "%";
+    }
 }
